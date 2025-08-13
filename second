@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pinkly Blog</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <a class="title" href="/">Pinkly Blog</a>
+        <span class="tagline">Informed Women. Empowered Choices.</span>
+      </div>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/newsletter.html">Newsletter</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Weekly posts every Sunday</h1>
+      <p>Product guides, real wellness, and planet-smart living—clear, honest, useful.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card"><h3><a href="/posts/the-aesthetic-guide-to-x.html">The Aesthetic Guide to X</a></h3><p>How to style/use a trendy product to its max.</p></article>
+      <article class="card"><h3><a href="/posts/your-sunday-reset.html">Your Sunday Reset</a></h3><p>A calming, wellness-centered routine to start your week.</p></article>
+      <article class="card"><h3><a href="/posts/main-character-mornings.html">Main Character Mornings</a></h3><p>Rituals that set the tone for the day.</p></article>
+      <article class="card"><h3><a href="/posts/romanticize-your-real-life.html">Romanticize Your Real Life</a></h3><p>Ways to love the daily grind (for real).</p></article>
+      <article class="card"><h3><a href="/posts/hot-girl-habits-for-cold-weather.html">Hot Girl Habits for Cold Weather</a></h3><p>Stay cozy, healthy, and motivated.</p></article>
+      <article class="card"><h3><a href="/posts/life-advice-your-best-friend-didnt-text-you.html">Life Advice Your Best Friend Didn’t Text You</a></h3><p>Real talk, no fluff.</p></article>
+      <article class="card"><h3><a href="/posts/planet-friendly-but-pinterest-cute.html">Planet-Friendly but Pinterest-Cute</a></h3><p>Eco swaps that aren’t ugly.</p></article>
+      <article class="card"><h3><a href="/posts/your-closets-carbon-footprint.html">Your Closet’s Carbon Footprint</a></h3><p>Why it matters + easy fixes.</p></article>
+      <article class="card"><h3><a href="/posts/trashy-trends.html">Trashy Trends</a></h3><p>Fads that hurt the planet—and what to do instead.</p></article>
+      <article class="card"><h3><a href="/posts/pretty-planet-hacks.html">Pretty Planet Hacks</a></h3><p>Small swaps for a cuter, cleaner world.</p></article>
+      <article class="card"><h3><a href="/posts/can-this-lip-gloss-save-the-world.html">Can This Lip Gloss Save the World?</a></h3><p>How brands help (or don’t).</p></article>
+      <article class="card"><h3><a href="/posts/hot-girl-health-files.html">Hot Girl Health Files</a></h3><p>Science-backed, practical health notes.</p></article>
+      <article class="card"><h3><a href="/posts/cuter-than-your-doctors-advice.html">Cuter Than Your Doctor’s Advice</a></h3><p>Health tips you’ll actually remember.</p></article>
+      <article class="card"><h3><a href="/posts/dont-sleep-on-your-sleep.html">Don’t Sleep on Your Sleep</a></h3><p>Chic tricks for better rest & skin.</p></article>
+      <article class="card"><h3><a href="/posts/wellness-without-the-weird-rules.html">Wellness Without the Weird Rules</a></h3><p>Debunking toxic health culture.</p></article>
+      <article class="card"><h3><a href="/posts/happy-hormones-happy-life.html">Happy Hormones, Happy Life</a></h3><p>Food, routines, & habits that help.</p></article>
+      <article class="card"><h3><a href="/posts/study-but-make-it-pretty.html">Study But Make It Pretty</a></h3><p>Notes & desk setups that fuel motivation.</p></article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="y"></span> Pinkly Blog</p>
+      <div class="footer-blossom"></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
